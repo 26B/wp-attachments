@@ -44,7 +44,6 @@ if ( file_exists( TSB_ATTACHMENTS_WP_PLUGIN_PATH . 'vendor/autoload.php' ) ) {
 }
 
 // Include files.
-require_once TSB_ATTACHMENTS_WP_PLUGIN_INC . '/utility.php';
 require_once TSB_ATTACHMENTS_WP_PLUGIN_INC . '/core.php';
 
 // Activation/Deactivation.

@@ -46,7 +46,7 @@ function setup() {
 function i18n() {
 	$locale = apply_filters( 'plugin_locale', WordPress::get_locale(), 'wp-attachments' );
 	load_textdomain( 'wp-attachments', WP_LANG_DIR . '/wp-attachments/wp-attachments-' . $locale . '.mo' );
-	load_plugin_textdomain( 'wp-attachments', false, plugin_basename( TSB_ATTACHMENTS_WP_PLUGIN_PATH ) . '/languages/' );
+	load_plugin_textdomain( 'wp-attachments', false, plugin_basename( TSB_WP_PLUGIN_ATTACHMENTS_PATH ) . '/languages/' );
 }
 
 function cli() {
@@ -90,7 +90,7 @@ function init() {
 		return;
 	}
 
-	ModuleInitialization::instance()->init_classes( TSB_ATTACHMENTS_WP_PLUGIN_INC );
+	ModuleInitialization::instance()->init_classes( TSB_WP_PLUGIN_ATTACHMENTS_INC );
 
 	/**
 	 * Fires after the wp-attachments plugin is initialized.
@@ -143,7 +143,7 @@ function script_url( $script, $context ) {
 		return new WP_Error( 'invalid_enqueue_context', 'Invalid $context specified in TSB\WP\Plugin\Attachments script loader.' );
 	}
 
-	return TSB_ATTACHMENTS_WP_PLUGIN_URL . "build/{$script}.js";
+	return TSB_WP_PLUGIN_ATTACHMENTS_URL . "build/{$script}.js";
 }
 
 /**
@@ -160,7 +160,7 @@ function style_url( $stylesheet, $context ) {
 		return new WP_Error( 'invalid_enqueue_context', 'Invalid $context specified in TSB\WP\Plugin\Attachments stylesheet loader.' );
 	}
 
-	return TSB_ATTACHMENTS_WP_PLUGIN_URL . "build/{$stylesheet}.css";
+	return TSB_WP_PLUGIN_ATTACHMENTS_URL . "build/{$stylesheet}.css";
 }
 
 /**

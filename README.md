@@ -70,8 +70,8 @@ Things to replace in the code:
 - `wp-attachments` in the file `wp-attachments.php` for the plugin name.
 - `wp-attachments` for the text domain and plugin name.
 - `\Attachments` for the namespace.
-- `TSB_ATTACHMENTS_WP_PLUGIN` for constants.
-- `TSB_ATTACHMENTS_WP_PLUGIN_frontend` for the JavaScript handle.
+- `TSB_WP_PLUGIN_ATTACHMENTS` for constants.
+- `TSB_WP_PLUGIN_ATTACHMENTS_frontend` for the JavaScript handle.
 
 Add new projects to `i18n-midoru.json` if needed.
 

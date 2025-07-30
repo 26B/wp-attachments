@@ -13,13 +13,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/26B/wp-framework/zipball/d16b4f1fdafab1f9fd177ec81b7856b6ef31ae6a",
                 "reference": "d16b4f1fdafab1f9fd177ec81b7856b6ef31ae6a",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/26b/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=8.2",
@@ -45,28 +39,7 @@
                     "TenupFramework\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "TenupFrameworkTests\\": "tests/",
-                    "TenupFrameworkTestClasses\\": "fixtures/classes/"
-                }
-            },
-            "notification-url": "https://repo.packagist.com/26b/downloads/",
-            "scripts": {
-                "test": [
-                    "XDEBUG_MODE=coverage ./vendor/bin/phpunit"
-                ],
-                "lint": [
-                    "./vendor/bin/phpcs --standard=./phpcs.xml"
-                ],
-                "lint-fix": [
-                    "./vendor/bin/phpcbf --standard=./phpcs.xml"
-                ],
-                "static": [
-                    "Composer\\Config::disableProcessTimeout",
-                    "phpstan --memory-limit=1G"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -110,13 +83,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/amphp/amp/zipball/7cf7fef3d667bfe4b2560bc87e67d5387a7bcde9",
                 "reference": "7cf7fef3d667bfe4b2560bc87e67d5387a7bcde9",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/26b/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=8.1",
@@ -140,7 +107,7 @@
                     "Amp\\": "src"
                 }
             },
-            "notification-url": "https://repo.packagist.com/26b/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -200,13 +167,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/amphp/byte-stream/zipball/55a6bd071aec26fa2a3e002618c20c35e3df1b46",
                 "reference": "55a6bd071aec26fa2a3e002618c20c35e3df1b46",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/26b/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "amphp/amp": "^3",
@@ -235,7 +196,7 @@
                     "Amp\\ByteStream\\": "src"
                 }
             },
-            "notification-url": "https://repo.packagist.com/26b/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -284,13 +245,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/amphp/cache/zipball/46912e387e6aa94933b61ea1ead9cf7540b7797c",
                 "reference": "46912e387e6aa94933b61ea1ead9cf7540b7797c",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/26b/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "amphp/amp": "^3",
@@ -313,7 +268,7 @@
                     "Amp\\Cache\\": "src"
                 }
             },
-            "notification-url": "https://repo.packagist.com/26b/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -358,13 +313,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/amphp/dns/zipball/78eb3db5fc69bf2fc0cb503c4fcba667bc223c71",
                 "reference": "78eb3db5fc69bf2fc0cb503c4fcba667bc223c71",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/26b/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "amphp/amp": "^3",
@@ -395,7 +344,7 @@
                     "Amp\\Dns\\": "src"
                 }
             },
-            "notification-url": "https://repo.packagist.com/26b/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -456,13 +405,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/amphp/parallel/zipball/5113111de02796a782f5d90767455e7391cca190",
                 "reference": "5113111de02796a782f5d90767455e7391cca190",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/26b/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "amphp/amp": "^3",
@@ -497,7 +440,7 @@
                     "Amp\\Parallel\\": "src"
                 }
             },
-            "notification-url": "https://repo.packagist.com/26b/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -549,13 +492,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/amphp/parser/zipball/3cf1f8b32a0171d4b1bed93d25617637a77cded7",
                 "reference": "3cf1f8b32a0171d4b1bed93d25617637a77cded7",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/26b/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=7.4"
@@ -573,7 +510,7 @@
                     "Amp\\Parser\\": "src"
                 }
             },
-            "notification-url": "https://repo.packagist.com/26b/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -620,13 +557,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/amphp/pipeline/zipball/7b52598c2e9105ebcddf247fc523161581930367",
                 "reference": "7b52598c2e9105ebcddf247fc523161581930367",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/26b/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "amphp/amp": "^3",
@@ -647,7 +578,7 @@
                     "Amp\\Pipeline\\": "src"
                 }
             },
-            "notification-url": "https://repo.packagist.com/26b/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -696,13 +627,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/amphp/process/zipball/52e08c09dec7511d5fbc1fb00d3e4e79fc77d58d",
                 "reference": "52e08c09dec7511d5fbc1fb00d3e4e79fc77d58d",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/26b/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "amphp/amp": "^3",
@@ -728,7 +653,7 @@
                     "Amp\\Process\\": "src"
                 }
             },
-            "notification-url": "https://repo.packagist.com/26b/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -773,13 +698,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/amphp/serialization/zipball/693e77b2fb0b266c3c7d622317f881de44ae94a1",
                 "reference": "693e77b2fb0b266c3c7d622317f881de44ae94a1",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/26b/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=7.1"
@@ -792,14 +711,14 @@
             "type": "library",
             "installation-source": "dist",
             "autoload": {
-                "psr-4": {
-                    "Amp\\Serialization\\": "src"
-                },
                 "files": [
                     "src/functions.php"
-                ]
+                ],
+                "psr-4": {
+                    "Amp\\Serialization\\": "src"
+                }
             },
-            "notification-url": "https://repo.packagist.com/26b/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -821,6 +740,10 @@
                 "serialization",
                 "serialize"
             ],
+            "support": {
+                "issues": "https://github.com/amphp/serialization/issues",
+                "source": "https://github.com/amphp/serialization/tree/master"
+            },
             "install-path": "../amphp/serialization"
         },
         {
@@ -836,13 +759,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/amphp/socket/zipball/58e0422221825b79681b72c50c47a930be7bf1e1",
                 "reference": "58e0422221825b79681b72c50c47a930be7bf1e1",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/26b/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "amphp/amp": "^3",
@@ -875,7 +792,7 @@
                     "Amp\\Socket\\": "src"
                 }
             },
-            "notification-url": "https://repo.packagist.com/26b/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -929,13 +846,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/amphp/sync/zipball/217097b785130d77cfcc58ff583cf26cd1770bf1",
                 "reference": "217097b785130d77cfcc58ff583cf26cd1770bf1",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/26b/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "amphp/amp": "^3",
@@ -961,7 +872,7 @@
                     "Amp\\Sync\\": "src"
                 }
             },
-            "notification-url": "https://repo.packagist.com/26b/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1013,13 +924,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/DaveRandom/LibDNS/zipball/b84c94e8fe6b7ee4aecfe121bfe3b6177d303c8a",
                 "reference": "b84c94e8fe6b7ee4aecfe121bfe3b6177d303c8a",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/26b/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "ext-ctype": "*",
@@ -1039,7 +944,7 @@
                     "LibDNS\\": "src/"
                 }
             },
-            "notification-url": "https://repo.packagist.com/26b/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1066,13 +971,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/guzzle/guzzle/zipball/7b2f29fe81dc4da0ca0ea7d42107a0845946ea77",
                 "reference": "7b2f29fe81dc4da0ca0ea7d42107a0845946ea77",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/26b/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "ext-json": "*",
@@ -1115,7 +1014,7 @@
                     "GuzzleHttp\\": "src/"
                 }
             },
-            "notification-url": "https://repo.packagist.com/26b/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1201,13 +1100,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/guzzle/promises/zipball/7c69f28996b0a6920945dd20b3857e499d9ca96c",
                 "reference": "7c69f28996b0a6920945dd20b3857e499d9ca96c",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/26b/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": "^7.2.5 || ^8.0"
@@ -1230,7 +1123,7 @@
                     "GuzzleHttp\\Promise\\": "src/"
                 }
             },
-            "notification-url": "https://repo.packagist.com/26b/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1293,13 +1186,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/guzzle/psr7/zipball/c2270caaabe631b3b44c85f99e5a04bbb8060d16",
                 "reference": "c2270caaabe631b3b44c85f99e5a04bbb8060d16",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/26b/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": "^7.2.5 || ^8.0",
@@ -1333,7 +1220,7 @@
                     "GuzzleHttp\\Psr7\\": "src/"
                 }
             },
-            "notification-url": "https://repo.packagist.com/26b/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1418,13 +1305,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/collections/zipball/a048b4fbbef4742ff2eee843971bb8278239c610",
                 "reference": "a048b4fbbef4742ff2eee843971bb8278239c610",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/26b/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "illuminate/conditionable": "^12.0",
@@ -1453,7 +1334,7 @@
                     "Illuminate\\Support\\": ""
                 }
             },
-            "notification-url": "https://repo.packagist.com/26b/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1484,13 +1365,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/conditionable/zipball/ec677967c1f2faf90b8428919124d2184a4c9b49",
                 "reference": "ec677967c1f2faf90b8428919124d2184a4c9b49",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/26b/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": "^8.2"
@@ -1508,7 +1383,7 @@
                     "Illuminate\\Support\\": ""
                 }
             },
-            "notification-url": "https://repo.packagist.com/26b/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1539,13 +1414,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/contracts/zipball/c2eef857b808810f5cb187de58e23d25c1d443d9",
                 "reference": "c2eef857b808810f5cb187de58e23d25c1d443d9",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/26b/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": "^8.2",
@@ -1565,7 +1434,7 @@
                     "Illuminate\\Contracts\\": ""
                 }
             },
-            "notification-url": "https://repo.packagist.com/26b/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1596,13 +1465,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/macroable/zipball/e862e5648ee34004fa56046b746f490dfa86c613",
                 "reference": "e862e5648ee34004fa56046b746f490dfa86c613",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/26b/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": "^8.2"
@@ -1620,7 +1483,7 @@
                     "Illuminate\\Support\\": ""
                 }
             },
-            "notification-url": "https://repo.packagist.com/26b/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1651,13 +1514,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/kelunik/certificate/zipball/7e00d498c264d5eb4f78c69f41c8bd6719c0199e",
                 "reference": "7e00d498c264d5eb4f78c69f41c8bd6719c0199e",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/26b/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "ext-openssl": "*",
@@ -1680,7 +1537,7 @@
                     "Kelunik\\Certificate\\": "src"
                 }
             },
-            "notification-url": "https://repo.packagist.com/26b/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1718,13 +1575,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/thephpleague/uri/zipball/81fb5145d2644324614cc532b28efd0215bda430",
                 "reference": "81fb5145d2644324614cc532b28efd0215bda430",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/26b/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "league/uri-interfaces": "^7.5",
@@ -1756,7 +1607,7 @@
                     "League\\Uri\\": ""
                 }
             },
-            "notification-url": "https://repo.packagist.com/26b/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1817,13 +1668,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/thephpleague/uri-interfaces/zipball/08cfc6c4f3d811584fb09c37e2849e6a7f9b0742",
                 "reference": "08cfc6c4f3d811584fb09c37e2849e6a7f9b0742",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/26b/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "ext-filter": "*",
@@ -1851,7 +1696,7 @@
                     "League\\Uri\\": ""
                 }
             },
-            "notification-url": "https://repo.packagist.com/26b/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1910,13 +1755,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/Seldaek/monolog/zipball/10d85740180ecba7896c87e06a166e0c95a0e3b6",
                 "reference": "10d85740180ecba7896c87e06a166e0c95a0e3b6",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/26b/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=8.1",
@@ -1975,7 +1814,7 @@
                     "Monolog\\": "src/Monolog"
                 }
             },
-            "notification-url": "https://repo.packagist.com/26b/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2022,13 +1861,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/php-fig/container/zipball/c71ecc56dfe541dbd90c5360474fbc405f8d5963",
                 "reference": "c71ecc56dfe541dbd90c5360474fbc405f8d5963",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/26b/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=7.4.0"
@@ -2046,7 +1879,7 @@
                     "Psr\\Container\\": "src/"
                 }
             },
-            "notification-url": "https://repo.packagist.com/26b/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2084,13 +1917,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/php-fig/http-client/zipball/bb5906edc1c324c9a05aa0873d40117941e5fa90",
                 "reference": "bb5906edc1c324c9a05aa0873d40117941e5fa90",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/26b/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": "^7.0 || ^8.0",
@@ -2109,7 +1936,7 @@
                     "Psr\\Http\\Client\\": "src/"
                 }
             },
-            "notification-url": "https://repo.packagist.com/26b/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2145,13 +1972,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/php-fig/http-factory/zipball/2b4765fddfe3b508ac62f829e852b1501d3f6e8a",
                 "reference": "2b4765fddfe3b508ac62f829e852b1501d3f6e8a",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/26b/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=7.1",
@@ -2170,7 +1991,7 @@
                     "Psr\\Http\\Message\\": "src/"
                 }
             },
-            "notification-url": "https://repo.packagist.com/26b/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2209,13 +2030,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/php-fig/http-message/zipball/402d35bcb92c70c026d1a6a9883f06b2ead23d71",
                 "reference": "402d35bcb92c70c026d1a6a9883f06b2ead23d71",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/26b/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": "^7.2 || ^8.0"
@@ -2233,7 +2048,7 @@
                     "Psr\\Http\\Message\\": "src/"
                 }
             },
-            "notification-url": "https://repo.packagist.com/26b/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2271,13 +2086,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/php-fig/log/zipball/f16e1d5863e37f8d8c2a01719f5b34baa2b714d3",
                 "reference": "f16e1d5863e37f8d8c2a01719f5b34baa2b714d3",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/26b/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=8.0.0"
@@ -2295,7 +2104,7 @@
                     "Psr\\Log\\": "src"
                 }
             },
-            "notification-url": "https://repo.packagist.com/26b/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2330,13 +2139,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/php-fig/simple-cache/zipball/764e0b3939f5ca87cb904f570ef9be2d78a07865",
                 "reference": "764e0b3939f5ca87cb904f570ef9be2d78a07865",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/26b/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=8.0.0"
@@ -2354,7 +2157,7 @@
                     "Psr\\SimpleCache\\": "src/"
                 }
             },
-            "notification-url": "https://repo.packagist.com/26b/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2390,13 +2193,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/ralouphie/getallheaders/zipball/120b605dfeb996808c31b6477290a714d356e822",
                 "reference": "120b605dfeb996808c31b6477290a714d356e822",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/26b/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.6"
@@ -2413,7 +2210,7 @@
                     "src/getallheaders.php"
                 ]
             },
-            "notification-url": "https://repo.packagist.com/26b/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2424,6 +2221,10 @@
                 }
             ],
             "description": "A polyfill for getallheaders.",
+            "support": {
+                "issues": "https://github.com/ralouphie/getallheaders/issues",
+                "source": "https://github.com/ralouphie/getallheaders/tree/develop"
+            },
             "install-path": "../ralouphie/getallheaders"
         },
         {
@@ -2439,13 +2240,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/revoltphp/event-loop/zipball/09bf1bf7f7f574453efe43044b06fafe12216eb3",
                 "reference": "09bf1bf7f7f574453efe43044b06fafe12216eb3",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/26b/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=8.1"
@@ -2469,7 +2264,7 @@
                     "Revolt\\": "src"
                 }
             },
-            "notification-url": "https://repo.packagist.com/26b/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2520,13 +2315,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/spatie/laravel-package-tools/zipball/f09a799850b1ed765103a4f0b4355006360c49a5",
                 "reference": "f09a799850b1ed765103a4f0b4355006360c49a5",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/26b/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "illuminate/contracts": "^9.28|^10.0|^11.0|^12.0",
@@ -2548,7 +2337,7 @@
                     "Spatie\\LaravelPackageTools\\": "src"
                 }
             },
-            "notification-url": "https://repo.packagist.com/26b/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2590,13 +2379,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/spatie/php-structure-discoverer/zipball/42f4d731d3dd4b3b85732e05a8c1928fcfa2f4bc",
                 "reference": "42f4d731d3dd4b3b85732e05a8c1928fcfa2f4bc",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/26b/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "amphp/amp": "^v3.0",
@@ -2634,7 +2417,7 @@
                     "Spatie\\StructureDiscoverer\\": "src"
                 }
             },
-            "notification-url": "https://repo.packagist.com/26b/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2678,13 +2461,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/63afe740e99a13ba87ec199bb07bbdee937a5b62",
                 "reference": "63afe740e99a13ba87ec199bb07bbdee937a5b62",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/26b/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=8.1"
@@ -2706,7 +2483,7 @@
                     "function.php"
                 ]
             },
-            "notification-url": "https://repo.packagist.com/26b/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2754,13 +2531,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/finder/zipball/ec2344cf77a48253bbca6939aa3d2477773ea63d",
                 "reference": "ec2344cf77a48253bbca6939aa3d2477773ea63d",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/26b/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=8.2"
@@ -2779,7 +2550,7 @@
                     "/Tests/"
                 ]
             },
-            "notification-url": "https://repo.packagist.com/26b/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],

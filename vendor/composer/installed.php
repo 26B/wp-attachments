@@ -3,7 +3,7 @@
         'name' => '26b/wp-attachments',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '8de9df85bb174ce5d61bf179f5428b05d9e50916',
+        'reference' => 'efd8c6f42c3892942a39179d95e6dba066ad6206',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         '26b/wp-attachments' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '8de9df85bb174ce5d61bf179f5428b05d9e50916',
+            'reference' => 'efd8c6f42c3892942a39179d95e6dba066ad6206',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

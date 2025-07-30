@@ -37,7 +37,7 @@
 			"locale": [ "en_US", "pt_PT" ],
 			"type"  : "plugin",
 			"domain": "frontend",
-			"js-handle": "TSB_ATTACHMENTS_WP_PLUGIN_frontend",
+			"js-handle": "TSB_WP_PLUGIN_ATTACHMENTS_frontend",
 			"path"  : "./languages/",
 			"ext"   : "json",
 			"format": "jed"

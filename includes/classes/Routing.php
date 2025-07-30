@@ -5,6 +5,15 @@ namespace TSB\WP\Plugin\Attachments;
 use TenupFramework\Module;
 use TenupFramework\ModuleInterface;
 
+/**
+ * Class Routing
+ *
+ * This class is responsible for handling the routing of requests in the plugin.
+ * It overrides the default WordPress behavior to prevent attachments from being matched
+ * during page regex matches.
+ *
+ * @since 0.0.1
+ */
 class Routing implements ModuleInterface {
 
 	use Module;
@@ -14,7 +23,6 @@ class Routing implements ModuleInterface {
 	}
 
 	public function register(): void {
-
 		// Stop WordPress from matching attachments during page regex matches.
 		\add_filter( 'do_parse_request', [ $this, 'do_parse_request' ], PHP_INT_MAX );
 	}
@@ -39,6 +47,8 @@ class Routing implements ModuleInterface {
 	 * Some extra code is added to ensure that the rewrite rules are not updated when we return
 	 * the matched rule, and that the original rewrite rules are restored after the request is
 	 * parsed.
+	 *
+	 * @since 0.0.1
 	 *
 	 * @param bool $bool Whether to parse the request.
 	 * @return bool
@@ -104,6 +114,8 @@ class Routing implements ModuleInterface {
 	 * code removed.
 	 *
 	 * Some changes are highlighted in the comments since they are the important parts.
+	 *
+	 * @since 0.0.1
 	 *
 	 * @return array
 	 */

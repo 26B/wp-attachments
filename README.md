@@ -62,17 +62,3 @@ composer run-script download-translations
 ```
 
 To download translations for a specific project, add the name of the project (key string in the i18n-midoru.json) as an argument to the command.
-
-#### New projects
-
-Things to replace in the code:
-
-- `wp-attachments` in the file `wp-attachments.php` for the plugin name.
-- `wp-attachments` for the text domain and plugin name.
-- `\Attachments` for the namespace.
-- `TSB_ATTACHMENTS_WP_PLUGIN` for constants.
-- `TSB_ATTACHMENTS_WP_PLUGIN_frontend` for the JavaScript handle.
-
-Add new projects to `i18n-midoru.json` if needed.
-
-Set/replace the environment variables `LOCALISE_{project_name}` for every project with the full access keys from Localise.

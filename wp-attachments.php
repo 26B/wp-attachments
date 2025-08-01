@@ -15,7 +15,7 @@
  * @wordpress-plugin
  * Plugin Name:       wp-attachments
  * Description:       WordPress plugin with a myriad of functionality to try to improve attachments, their functionality and experience.
- * Version:           0.0.1
+ * Version:           0.0.2
  * Author:            26B - IT Consulting
  * Author URI:        https://26b.io/
  * License:           GPL v3
@@ -26,7 +26,7 @@
  */
 
 // Useful global constants.
-define( 'TSB_WP_PLUGIN_ATTACHMENTS_VERSION', '0.0.1' );
+define( 'TSB_WP_PLUGIN_ATTACHMENTS_VERSION', '0.0.2' );
 define( 'TSB_WP_PLUGIN_ATTACHMENTS_URL', plugin_dir_url( __FILE__ ) );
 define( 'TSB_WP_PLUGIN_ATTACHMENTS_PATH', plugin_dir_path( __FILE__ ) );
 define( 'TSB_WP_PLUGIN_ATTACHMENTS_INC', TSB_WP_PLUGIN_ATTACHMENTS_PATH . 'includes/' );

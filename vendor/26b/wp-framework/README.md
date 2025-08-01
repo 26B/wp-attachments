@@ -1,6 +1,6 @@
 # WP Framework
 
-[![Support Level](https://img.shields.io/badge/support-beta-blueviolet.svg)](#support-level) [![GPL-2.0-or-later License](https://img.shields.io/github/license/10up/wp-framework.svg)](https://github.com/10up/wp-framework/blob/develop/LICENSE.md) [![PHP Checks](https://github.com/10up/wp-framework/actions/workflows/php.yml/badge.svg)](https://github.com/10up/wp-framework/actions/workflows/php.yml)
+[![Support Level](https://img.shields.io/badge/support-beta-blueviolet.svg)](#support-level) [![GPL-2.0-or-later License](https://img.shields.io/github/license/26b/wp-framework.svg)](https://github.com/26b/wp-framework/blob/develop/LICENSE.md) [![PHP Checks](https://github.com/26b/wp-framework/actions/workflows/php.yml/badge.svg)](https://github.com/26b/wp-framework/actions/workflows/php.yml)
 
 > WP Framework is a PHP package designed to simplify the development of WordPress themes and plugins by centralizing shared functionality. It provides a set of foundational tools, abstract classes, and reusable components to handle common challenges, enabling developers to focus on project-specific logic while ensuring consistency across projects.
 
@@ -16,7 +16,7 @@
 You can include WP Framework in your project via Composer:
 
 ```bash
-composer require 10up/wp-framework
+composer require 26b/wp-framework
 ```
 
 ## Usage
@@ -127,18 +127,46 @@ class Demo extends AbstractTaxonomy {
 }
 ```
 
+### Facades - Wordpress
+
+```php
+use TenupFramework\Facades\WordPress;
+
+// Get the correct current site's URL, which may vary based on plugins or conditions.
+WordPress::get_home_url();
+
+// Get the correct current locale, which may vary based on plugins or conditions.
+WordPress::get_locale();
+
+// Get the correct default locale, which may vary based on plugins or conditions.
+WordPress::get_default_locale();
+```
+
+### Filters - Run Once
+
+```php
+use TenupFramework\Filters\RunOnce;
+
+RunOnce::add_filter(
+	'example_filter',
+	function( $value ) {
+		// Do something once and return the value.
+		return $value;
+	}
+);
+
+RunOnce::add_action(
+	'example_action',
+	function( $value ) {
+		// Do something once.
+	}
+);
+```
+
 ## Changelog
 
-A complete listing of all notable changes to Distributor are documented in [CHANGELOG.md](https://github.com/10up/wp-framework/blob/develop/CHANGELOG.md).
+A complete listing of all notable changes to Distributor are documented in [CHANGELOG.md](https://github.com/26b/wp-framework/blob/develop/CHANGELOG.md).
 
 ## Contributing
 
-Please read [CODE_OF_CONDUCT.md](https://github.com/10up/wp-framework/blob/develop/CODE_OF_CONDUCT.md) for details on our code of conduct and [CONTRIBUTING.md](https://github.com/10up/wp-framework/blob/develop/CONTRIBUTING.md) for details on the process for submitting pull requests to us.
-
-## Support Level
-
-**Beta:** This project is quite new and we're not sure what our ongoing support level for this will be. Bug reports, feature requests, questions, and pull requests are welcome. If you like this project please let us know, but be cautious using this in a Production environment!
-
-## Like what you see?
-
-<a href="http://10up.com/contact/"><img src="https://10up.com/uploads/2016/10/10up-Github-Banner.png" width="850"></a>
+Please read [CODE_OF_CONDUCT.md](https://github.com/26b/wp-framework/blob/develop/CODE_OF_CONDUCT.md) for details on our code of conduct and [CONTRIBUTING.md](https://github.com/26b/wp-framework/blob/develop/CONTRIBUTING.md) for details on the process for submitting pull requests to us.

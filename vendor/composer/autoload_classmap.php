@@ -662,6 +662,7 @@ return array(
     'TSB\\WP\\Plugin\\Attachments\\Routing' => $baseDir . '/includes/classes/Routing.php',
     'TenupFramework\\Assets\\GetAssetInfo' => $vendorDir . '/26b/wp-framework/src/Assets/GetAssetInfo.php',
     'TenupFramework\\Facades\\WordPress' => $vendorDir . '/26b/wp-framework/src/Facades/WordPress.php',
+    'TenupFramework\\Filters\\RunOnce' => $vendorDir . '/26b/wp-framework/src/Filters/RunOnce.php',
     'TenupFramework\\Module' => $vendorDir . '/26b/wp-framework/src/Module.php',
     'TenupFramework\\ModuleInitialization' => $vendorDir . '/26b/wp-framework/src/ModuleInitialization.php',
     'TenupFramework\\ModuleInterface' => $vendorDir . '/26b/wp-framework/src/ModuleInterface.php',

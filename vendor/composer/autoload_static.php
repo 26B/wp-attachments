@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit99063637c8236ce0bbc6fc8dfe4f2174
+class ComposerStaticInitfb8f49e68e7917d38c5b80d7a1014a36
 {
     public static $files = array (
         '88254829cb0eed057c30eaabb6d8edc4' => __DIR__ . '/..' . '/amphp/amp/src/functions.php',
@@ -845,6 +845,7 @@ class ComposerStaticInit99063637c8236ce0bbc6fc8dfe4f2174
         'TSB\\WP\\Plugin\\Attachments\\Routing' => __DIR__ . '/../..' . '/includes/classes/Routing.php',
         'TenupFramework\\Assets\\GetAssetInfo' => __DIR__ . '/..' . '/26b/wp-framework/src/Assets/GetAssetInfo.php',
         'TenupFramework\\Facades\\WordPress' => __DIR__ . '/..' . '/26b/wp-framework/src/Facades/WordPress.php',
+        'TenupFramework\\Filters\\RunOnce' => __DIR__ . '/..' . '/26b/wp-framework/src/Filters/RunOnce.php',
         'TenupFramework\\Module' => __DIR__ . '/..' . '/26b/wp-framework/src/Module.php',
         'TenupFramework\\ModuleInitialization' => __DIR__ . '/..' . '/26b/wp-framework/src/ModuleInitialization.php',
         'TenupFramework\\ModuleInterface' => __DIR__ . '/..' . '/26b/wp-framework/src/ModuleInterface.php',
@@ -856,9 +857,9 @@ class ComposerStaticInit99063637c8236ce0bbc6fc8dfe4f2174
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit99063637c8236ce0bbc6fc8dfe4f2174::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit99063637c8236ce0bbc6fc8dfe4f2174::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit99063637c8236ce0bbc6fc8dfe4f2174::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitfb8f49e68e7917d38c5b80d7a1014a36::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitfb8f49e68e7917d38c5b80d7a1014a36::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitfb8f49e68e7917d38c5b80d7a1014a36::$classMap;
 
         }, null, ClassLoader::class);
     }

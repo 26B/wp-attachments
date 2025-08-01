@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Changed
+
+- Updated `26b/wp-framework` to version `^1.4.0`.
+
 ## [0.0.1] - 2025-07-30
 
 ### Added

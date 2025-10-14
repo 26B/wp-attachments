@@ -2,7 +2,11 @@
 
 All notable changes to this project will be documented in this file, per [the Keep a Changelog standard](http://keepachangelog.com/) and will adhere to [Semantic Versioning](http://semver.org/).
 
-## [Unreleased] - TBD
+## [1.5.0] - 2025-09-22
+
+### Added
+
+- New `Filters\QueryFilters` to abstract filters into a configuration that is then used for querying and frontend templates without any specific knowledge. It provides cross-filter filtering with possible values out of existing options and other filter features. This is still in experimental fase with only the filters for the frontend.
 
 ## [1.4.0] - 2025-08-01
 

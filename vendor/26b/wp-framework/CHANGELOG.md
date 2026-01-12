@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file, per [the Keep a Changelog standard](http://keepachangelog.com/) and will adhere to [Semantic Versioning](http://semver.org/).
 
+## [Unreleased]
+
+## [1.6.0] - 2026-01-12
+
+### Added
+
+- Callable condition to `Filters\RunOnce` methods to allow conditional execution of the once-only filters and actions.
+
+### Changed
+
+- Improve search filter handling for `Filters\QueryFilters`.
+
 ## [1.5.0] - 2025-09-22
 
 ### Added
@@ -36,6 +48,10 @@ All notable changes to this project will be documented in this file, per [the Ke
 - Base repo and readme creation
 
 [Unreleased]: https://github.com/10up/wp-framework/compare/trunk...develop
+[1.6.0]: https://github.com/10up/wp-framework/compare/1.5.0...1.6.0
+[1.5.0]: https://github.com/10up/wp-framework/compare/1.4.0...1.5.0
+[1.4.0]: https://github.com/10up/wp-framework/compare/1.3.0...1.4.0
+[1.3.0]: https://github.com/10up/wp-framework/compare/1.2.0...1.3.0
 [1.2.0]: https://github.com/10up/wp-framework/compare/1.1.0...1.2.0
 [1.1.0]: https://github.com/10up/wp-framework/compare/1.0.0...1.1.0
 [1.0.0]: https://github.com/10up/wp-framework/commit/341fc55c8abf302380ad0d1e269b13366bdd710a

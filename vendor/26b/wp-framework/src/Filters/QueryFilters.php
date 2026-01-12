@@ -46,24 +46,35 @@ class QueryFilters {
 		$this->filters = apply_filters( 'wp_framework_query_filters', $this->filters, $this );
 
 		// Create applied data.
-		// TODO:
+		$this->build_applied();
 	}
 
 	public function get() : array {
 		$sort_map = array_map(
-			fn ( $filter ) => $filter['name'],
+			fn ( $filter ) => $filter['type'] === 'search' ? 'search' : $filter['name'],
 			$this->config
 		);
 
 		$filters = [
-			...$this->filters['search'] ?? [],
+			'search' => $this->filters['search'] ?? [],
 			...$this->filters['taxonomy'] ?? [],
 			...$this->filters['meta'] ?? [],
 		];
 
-		$filters = array_merge( array_flip( $sort_map ), $filters );
+		$filters = array_merge( array_flip( $sort_map ), array_filter( $filters ) );
 
 		return $filters;
+	}
+
+	public function build_applied() : void {
+		foreach ( $this->filters as $type => $filters ) {
+			if ( $type === 'search' ) {
+				continue;
+			}
+			foreach ( $filters as $filter_name => $filter_data ) {
+				$this->applied[ $filter_name ] = $filter_data['query_values'] ?? [];
+			}
+		}
 	}
 
 	private function add_filter_values() : void {
@@ -101,7 +112,7 @@ class QueryFilters {
 					$values = explode( ',', array_shift( $values ) );
 				}
 
-				if ( ! is_array( $values ) ) {
+				if ( ! is_array( $values ) && $type !== 'search' ) {
 					$values = [ $values ];
 				}
 
@@ -123,7 +134,11 @@ class QueryFilters {
 					);
 				}
 
-				$this->filters[ $type ][ $filter_name ]['query_values'] = $values;
+				if ( $type === 'search' ) {
+					$this->filters[ $type ]['query_values'] = $values;
+				} else {
+					$this->filters[ $type ][ $filter_name ]['query_values'] = $values;
+				}
 			}
 		}
 	}
@@ -297,13 +312,15 @@ class QueryFilters {
 				{$meta_join_filters}
 				{$join_filters}
 				WHERE post_type = %s
+				AND post_status = %s
 				{$search_filters}
 				{$where_filters}
 				{$meta_where_filters}
 			) AS P
 			{$term_filters}",
 			// phpcs:enable
-			$post_type
+			$post_type,
+			'publish'
 		);
 	}
 
@@ -320,11 +337,19 @@ class QueryFilters {
 			return '';
 		}
 
-		if ( empty( $this->filters['search']['query_values'] ) || ! is_string( $this->filters['search']['query_values'] ) ) {
+		if ( empty( $this->filters['search']['query_values'] ) ) {
 			return '';
 		}
 
-		$like = sprintf( '%%%s%%', $wpdb->esc_like( $this->filters['search']['query_values'] ) );
+		$value = $this->filters['search']['query_values'];
+		if ( is_array( $value ) ) {
+			$value = array_shift( $value );
+		}
+		if ( ! is_string( $value ) ) {
+			return '';
+		}
+
+		$like = sprintf( '%%%s%%', $wpdb->esc_like( $value ) );
 		return $wpdb->prepare(
 			' AND ( P.post_content LIKE %s
 			OR P.post_title LIKE %s

@@ -2,17 +2,17 @@
     "packages": [
         {
             "name": "26b/wp-framework",
-            "version": "1.5.0",
-            "version_normalized": "1.5.0.0",
+            "version": "1.6.0",
+            "version_normalized": "1.6.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/26B/wp-framework.git",
-                "reference": "84a74c92f68fa9281ae23ccfc9a6b8f62470ba42"
+                "reference": "019ea758cf52333e08a76a41f903ca6cd34a2038"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/26B/wp-framework/zipball/84a74c92f68fa9281ae23ccfc9a6b8f62470ba42",
-                "reference": "84a74c92f68fa9281ae23ccfc9a6b8f62470ba42",
+                "url": "https://api.github.com/repos/26B/wp-framework/zipball/019ea758cf52333e08a76a41f903ca6cd34a2038",
+                "reference": "019ea758cf52333e08a76a41f903ca6cd34a2038",
                 "shasum": ""
             },
             "require": {
@@ -31,7 +31,7 @@
                 "szepeviktor/phpstan-wordpress": "^2.0",
                 "yoast/phpunit-polyfills": "^2.0"
             },
-            "time": "2025-09-22T18:57:13+00:00",
+            "time": "2026-01-12T18:56:00+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -67,7 +67,7 @@
             "homepage": "https://github.com/26b/wp-framework",
             "support": {
                 "issues": "https://github.com/26B/wp-framework/issues",
-                "source": "https://github.com/26B/wp-framework/tree/1.5.0"
+                "source": "https://github.com/26B/wp-framework/tree/1.6.0"
             },
             "install-path": "../26b/wp-framework"
         },

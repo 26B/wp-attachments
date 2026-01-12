@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit5dd8f9eedf63601cb0323622615d22eb
+class ComposerStaticInit8194f0df189ba9200b89fa95e58adcfb
 {
     public static $files = array (
         '9d2b9fc6db0f153a0a149fefb182415e' => __DIR__ . '/..' . '/symfony/polyfill-php84/bootstrap.php',
@@ -15,12 +15,12 @@ class ComposerStaticInit5dd8f9eedf63601cb0323622615d22eb
     );
 
     public static $prefixLengthsPsr4 = array (
-        'T' => 
+        'T' =>
         array (
             'TenupFramework\\' => 15,
             'TSB\\WP\\Plugin\\Attachments\\' => 26,
         ),
-        'S' => 
+        'S' =>
         array (
             'Symfony\\Polyfill\\Php85\\' => 23,
             'Symfony\\Polyfill\\Php84\\' => 23,
@@ -28,12 +28,12 @@ class ComposerStaticInit5dd8f9eedf63601cb0323622615d22eb
             'Spatie\\StructureDiscoverer\\' => 27,
             'Spatie\\LaravelPackageTools\\' => 27,
         ),
-        'P' => 
+        'P' =>
         array (
             'Psr\\SimpleCache\\' => 16,
             'Psr\\Container\\' => 14,
         ),
-        'I' => 
+        'I' =>
         array (
             'Illuminate\\Support\\' => 19,
             'Illuminate\\Contracts\\' => 21,
@@ -41,49 +41,49 @@ class ComposerStaticInit5dd8f9eedf63601cb0323622615d22eb
     );
 
     public static $prefixDirsPsr4 = array (
-        'TenupFramework\\' => 
+        'TenupFramework\\' =>
         array (
             0 => __DIR__ . '/..' . '/26b/wp-framework/src',
         ),
-        'TSB\\WP\\Plugin\\Attachments\\' => 
+        'TSB\\WP\\Plugin\\Attachments\\' =>
         array (
             0 => __DIR__ . '/../..' . '/includes/classes',
         ),
-        'Symfony\\Polyfill\\Php85\\' => 
+        'Symfony\\Polyfill\\Php85\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-php85',
         ),
-        'Symfony\\Polyfill\\Php84\\' => 
+        'Symfony\\Polyfill\\Php84\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-php84',
         ),
-        'Symfony\\Component\\Finder\\' => 
+        'Symfony\\Component\\Finder\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/finder',
         ),
-        'Spatie\\StructureDiscoverer\\' => 
+        'Spatie\\StructureDiscoverer\\' =>
         array (
             0 => __DIR__ . '/..' . '/spatie/php-structure-discoverer/src',
         ),
-        'Spatie\\LaravelPackageTools\\' => 
+        'Spatie\\LaravelPackageTools\\' =>
         array (
             0 => __DIR__ . '/..' . '/spatie/laravel-package-tools/src',
         ),
-        'Psr\\SimpleCache\\' => 
+        'Psr\\SimpleCache\\' =>
         array (
             0 => __DIR__ . '/..' . '/psr/simple-cache/src',
         ),
-        'Psr\\Container\\' => 
+        'Psr\\Container\\' =>
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
         ),
-        'Illuminate\\Support\\' => 
+        'Illuminate\\Support\\' =>
         array (
             0 => __DIR__ . '/..' . '/illuminate/collections',
             1 => __DIR__ . '/..' . '/illuminate/macroable',
             2 => __DIR__ . '/..' . '/illuminate/conditionable',
         ),
-        'Illuminate\\Contracts\\' => 
+        'Illuminate\\Contracts\\' =>
         array (
             0 => __DIR__ . '/..' . '/illuminate/contracts',
         ),
@@ -401,9 +401,9 @@ class ComposerStaticInit5dd8f9eedf63601cb0323622615d22eb
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit5dd8f9eedf63601cb0323622615d22eb::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit5dd8f9eedf63601cb0323622615d22eb::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit5dd8f9eedf63601cb0323622615d22eb::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit8194f0df189ba9200b89fa95e58adcfb::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit8194f0df189ba9200b89fa95e58adcfb::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit8194f0df189ba9200b89fa95e58adcfb::$classMap;
 
         }, null, ClassLoader::class);
     }
